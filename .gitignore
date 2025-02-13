@@ -1,13 +1,13 @@
 # .gitignore para aplicação React + .NET
 
 # Dependências do Node (React)
-/node_modules
-/.pnp
+front/node_modules
+front/.pnp
 .pnp.js
 
 # Build do React
-/build
-/out
+front/build
+front/out
 
 # Cache e logs do npm/yarn
 /.npm
@@ -27,8 +27,8 @@ npm-debug.log*
 /.vs
 
 # Build do .NET
-/bin
-/obj
+backend/bin
+backend/obj
 
 # Arquivos de usuário
 *.user
