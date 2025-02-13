@@ -1,0 +1,64 @@
+# .gitignore para aplicação React + .NET
+
+# Dependências do Node (React)
+/node_modules
+/.pnp
+.pnp.js
+
+# Build do React
+/build
+/out
+
+# Cache e logs do npm/yarn
+/.npm
+/.yarn
+/yarn-error.log
+npm-debug.log*
+
+# Ambiente de desenvolvimento
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Arquivos de configuração local
+/.vscode
+/.idea
+/.vs
+
+# Build do .NET
+/bin
+/obj
+
+# Arquivos de usuário
+*.user
+*.suo
+
+# Arquivos de publish do .NET
+/publish
+
+# Arquivos de log e banco de dados local
+*.log
+*.sqlite
+
+# Arquivos de configuração sensíveis
+appsettings.Development.json
+appsettings.Local.json
+
+# Outros arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos do macOS
+.DS_Store
+
+# Arquivos do Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos do Rider
+.idea/*
+!.idea/runConfigurations/
